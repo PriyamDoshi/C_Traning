@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 
+//functions for different operations
 void add(double *a,double *b,double *x ){
     *x = *a + *b;
     }
@@ -33,6 +34,7 @@ int main()
     double x;
     
     scanf("%d",&y);
+   //switch case for different operations
     
     switch(y) {
         case 1 :  add(&a,&b,&x);
